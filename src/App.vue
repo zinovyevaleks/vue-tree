@@ -6,14 +6,13 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import TreeView from "./components/TreeView.vue";
 
 export default {
   name: "App",
   components: {
-    TreeView
-},
+    TreeView,
+  },
 };
 </script>
 
